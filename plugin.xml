@@ -1,0 +1,27 @@
+<!-- plugin.xml -->
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+    <id>plugin.video.hdrezka</id>
+    <name>HDRezka UA</name>
+    <version>1.0.0</version>
+    <provider>HDRezka UA Team</provider>
+    <description>Плагін для перегляду HDRezka.ua в Україні</description>
+    <language>uk</language>
+    
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.requests" version="2.27.0"/>
+        <import addon="script.module.beautifulsoup4" version="4.11.1"/>
+    </requires>
+    
+    <source>
+        <info>https://raw.githubusercontent.com/NikolajSm/hdrezka-lampa/main/plugin.xml</info>
+        <checksum>https://raw.githubusercontent.com/NikolajSm/hdrezka-lampa/main/plugin.xml.md5</checksum>
+        <datadir>https://raw.githubusercontent.com/NikolajSm/hdrezka-lampa/main/</datadir>
+    </source>
+    
+    <assets>
+        <icon>https://raw.githubusercontent.com/NikolajSm/hdrezka-lampa/main/icon.png</icon>
+        <fanart>https://raw.githubusercontent.com/NikolajSm/hdrezka-lampa/main/fanart.jpg</fanart>
+    </assets>
+</plugin>

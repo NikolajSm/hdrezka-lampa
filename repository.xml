@@ -1,0 +1,21 @@
+<!-- repository.xml -->
+<?xml version="1.0" encoding="UTF-8"?>
+<repositories>
+    <repository>
+        <id>hdrezka-repo</id>
+        <name>HDRezka Repository</name>
+        <version>1.0.0</version>
+        <datadir>https://raw.githubusercontent.com/NikolajSm/hdrezka-lampa/main/repository/</datadir>
+        <info>https://raw.githubusercontent.com/NikolajSm/hdrezka-lampa/main/repository/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/NikolajSm/hdrezka-lampa/main/repository/addons.xml.md5</checksum>
+        
+        <plugins>
+            <plugin>
+                <id>plugin.video.hdrezka</id>
+                <name>HDRezka UA</name>
+                <version>1.0.0</version>
+                <provider>HDRezka UA Team</provider>
+            </plugin>
+        </plugins>
+    </repository>
+</repositories>

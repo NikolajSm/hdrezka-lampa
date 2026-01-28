@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+    <addon id="plugin.video.hdrezka" 
+           name="HDRezka UA" 
+           version="1.0.0" 
+           provider-name="HDRezka UA Team">
+        <requires>
+            <import addon="xbmc.python" version="3.0.0"/>
+            <import addon="script.module.requests" version="2.27.0"/>
+            <import addon="script.module.beautifulsoup4" version="4.11.1"/>
+        </requires>
+        <extension point="xbmc.python.pluginsource" library="default.py">
+            <provides>video</provides>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Плагін для перегляду HDRezka.ua</summary>
+            <description>Перегляд фільмів та серіалів з HDRezka.ua</description>
+            <platform>all</platform>
+            <language>uk</language>
+            <license>GPL v.3</license>
+        </extension>
+    </addon>
+</addons>
