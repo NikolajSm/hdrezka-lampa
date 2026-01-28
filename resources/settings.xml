@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="Основні">
+        <setting id="proxy_enabled" type="bool" label="Використовувати проксі" default="false"/>
+        <setting id="proxy_url" type="text" label="URL проксі" default=""
+            visible="eq(-1,true)" enable="true"/>
+        <setting id="video_quality" type="labelenum" label="Якість відео" values="Авто|1080p|720p|480p" default="0"/>
+        <setting id="use_cache" type="bool" label="Кешувати дані" default="true"/>
+        <setting id="clear_cache" type="action" label="Очистити кеш" action="RunPlugin(plugin://plugin.video.hdrezka/clear_cache)"/>
+    </category>
+    
+    <category label="Розширені">
+        <setting id="user_agent" type="text" label="User-Agent" default="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"/>
+        <setting id="timeout" type="number" label="Таймаут запитів (сек)" default="10"/>
+        <setting id="retry_count" type="number" label="Кількість спроб" default="3"/>
+        <setting id="enable_logging" type="bool" label="Логування" default="false"/>
+    </category>
+</settings>
